@@ -1,3 +1,5 @@
-import somar from "@musicarse/common";
+import { Id } from "@musicarse/common";
 
-console.log(somar(1, 2)); // 3
+const id = Id.novo;
+
+export default id.valor;

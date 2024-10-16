@@ -1,0 +1,9 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "include": [
+    "../../packages/common/src/**/*",
+    "../../packages/educacional/src/**/*",
+    "src/**/*"
+  ],
+  "exclude": ["dist", "build", "node_modules"]
+}

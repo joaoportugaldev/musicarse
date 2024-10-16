@@ -1,19 +1,22 @@
 {
-  "name": "@musicarse/educacional",
+  "name": "backend",
   "version": "1.0.0",
-  "main": "./src/index.ts",
+  "main": "index.ts",
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "@musicarse/educacional": "*"
+  },
   "devDependencies": {
     "@repo/typescript-config": "*",
+    "tsup": "^8.3.0",
     "typescript": "^5.6.3"
-  },
-  "dependencies": {
-    "@musicarse/common": "*"
   }
 }
