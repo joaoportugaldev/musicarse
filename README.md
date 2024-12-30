@@ -1,3 +1,6 @@
+Primeiro projeto de página estática para a Musicarse, minha escola de música.
+First project of static page to Musicarse, my school of music.
+
 # Turborepo starter
 
 This is an official starter Turborepo.
